@@ -13,7 +13,7 @@ const Footer = () => {
         <div className="footer__box__container">
           <div className="footer__box__container__social-media">
             <p>
-              <LogoFacebook fontSize="30px" color="#3b5998" borderRadius="10px" />
+              <LogoFacebook fontSize="30px" color="#3b5998" />
               Facebook
             </p>
             <p>
