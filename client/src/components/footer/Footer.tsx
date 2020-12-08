@@ -3,9 +3,9 @@ import LogoFacebook from 'react-ionicons/lib/LogoFacebook';
 import IosMailOutline from 'react-ionicons/lib/IosMailOutline';
 
 /* Styles */
-import './footer.styles.scss';
+import './Footer.styles.scss';
 
-const Footer = () => {
+const Footer = (): JSX.Element => {
   return (
     <footer className="footer" id="footer">
       <div className="footer__box">
@@ -26,7 +26,13 @@ const Footer = () => {
             <p>+49 01522 3044584 </p>
           </div>
         </div>
-        <p className="credits">Made with ❤️ in Berlin by Bido, Simona and Kevin.</p>
+        <p className="landing-page__footer__credits">
+          Made with
+          <span role="img" aria-label="hearth-emoji">
+            ❤️
+          </span>
+          in Berlin by Bido, Simona and Kevin.
+        </p>
       </div>
     </footer>
   );
